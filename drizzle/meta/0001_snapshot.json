@@ -1,6 +1,6 @@
 {
-  "id": "4957ff6b-cfc5-43f0-aa72-4493ad5cb821",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "be936462-21de-4a75-818c-6474d6bbb29f",
+  "prevId": "4957ff6b-cfc5-43f0-aa72-4493ad5cb821",
   "version": "5",
   "dialect": "pg",
   "tables": {
@@ -66,6 +66,48 @@
           ]
         }
       }
+    },
+    "restaurants": {
+      "name": "restaurants",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
     }
   },
   "enums": {
