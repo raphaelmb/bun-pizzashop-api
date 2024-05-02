@@ -36,6 +36,20 @@
       "when": 1710185379624,
       "tag": "0004_lush_norrin_radd",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1714668398150,
+      "tag": "0005_remarkable_bulldozer",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1714670217402,
+      "tag": "0006_chubby_inertia",
+      "breakpoints": true
     }
   ]
 }
